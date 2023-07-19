@@ -7,7 +7,6 @@ import HText from "@/shared/HText";
 type Props = {
   setSelectedPage: (value: Selectedpage) => void;
 };
-// const email = import.meta.env.VITE_EMAIL;
 function ContactUs({ setSelectedPage }: Props) {
   const {
     register,
