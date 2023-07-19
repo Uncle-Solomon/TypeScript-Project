@@ -23,7 +23,7 @@ function ContactUs({ setSelectedPage }: Props) {
   };
 
   return (
-    <section id="contactus" className="mx-auto w-5/6 pt-24 pb-22 mb-4">
+    <section id="contactus" className="mx-auto w-5/6 pt-24 pb-20 mb-4">
       <motion.div
         onViewportEnter={() => setSelectedPage(Selectedpage.ContactUs)}
       >
@@ -136,7 +136,7 @@ function ContactUs({ setSelectedPage }: Props) {
               visible: { opacity: 1, y: 0 },
             }}
           >
-            <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
+            <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-12 before:z-[-1]">
               <img
                 className="w-full"
                 alt="contact us page graphic"
